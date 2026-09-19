@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Speisekarte – Döner Ecke</title>
+<meta name="description" content="Die vollständige Speisekarte der Döner Ecke: Döner, Dürüm, Boxen, Pizza, Lahmacun, Salate, Getränke und mehr." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">🥙</span>
+      Döner <span>Ecke</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <ul>
+        <li><a href="index.html">Start</a></li>
+        <li><a href="index.html#ueber-uns">Über uns</a></li>
+        <li><a href="speisekarte.html" class="active">Speisekarte</a></li>
+        <li><a href="index.html#galerie">Galerie</a></li>
+        <li><a href="index.html#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a href="tel:+4900000000" class="phone-link">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        <span>[Telefonnummer]</span>
+      </a>
+      <button class="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumbs"><a href="index.html">Start</a> / Speisekarte</div>
+    <h1>Unsere Speisekarte</h1>
+    <p class="placeholder-text">Alle Gerichte, Beschreibungen und Preise sind aktuell Platzhalter und werden später durch die echte Karte ersetzt.</p>
+  </div>
+</div>
+
+<main class="section">
+  <div class="container">
+
+    <div class="menu-tabs">
+      <button class="menu-tab active" data-target="cat-doener">Döner &amp; Dürüm</button>
+      <button class="menu-tab" data-target="cat-boxen">Boxen &amp; Teller</button>
+      <button class="menu-tab" data-target="cat-pizza">Pizza &amp; Lahmacun</button>
+      <button class="menu-tab" data-target="cat-vorspeisen">Vorspeisen &amp; Salate</button>
+      <button class="menu-tab" data-target="cat-beilagen">Beilagen &amp; Saucen</button>
+      <button class="menu-tab" data-target="cat-getraenke">Getränke</button>
+      <button class="menu-tab" data-target="cat-dessert">Desserts</button>
+    </div>
+
+    <!-- DÖNER & DÜRÜM -->
+    <div class="menu-panel active" id="cat-doener">
+      <h2 class="menu-category-title">Döner &amp; Dürüm</h2>
+      <p class="menu-category-desc placeholder-text">Kurze Platzhalter-Einleitung zur Kategorie, z. B. Hinweis auf Fleischsorte (Kalb/Huhn) oder Zubereitungsart.</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Döner Kebab <span class="tag">Beliebt</span></h4>
+            <p class="placeholder-text">Fladenbrot, Fleisch, Salat, Soße – Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Döner Kebab groß</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung – größere Portion.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Dürüm Döner</h4>
+            <p class="placeholder-text">Im Weizen-Wrap, Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Vegetarischer Döner <span class="tag">Veggie</span></h4>
+            <p class="placeholder-text">Mit Falafel oder Käse, Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Hähnchen-Döner</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Lahmacun-Dürüm</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOXEN & TELLER -->
+    <div class="menu-panel" id="cat-boxen">
+      <h2 class="menu-category-title">Boxen &amp; Teller</h2>
+      <p class="menu-category-desc placeholder-text">Platzhalter-Einleitung, z. B. Hinweis auf Beilagen (Reis/Pommes) inklusive.</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Döner Box</h4>
+            <p class="placeholder-text">Mit Pommes, Salat und Soße – Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Döner Teller</h4>
+            <p class="placeholder-text">Mit Reis, Salat und Soße – Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Hähnchen Box</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Falafel Box <span class="tag">Vegan</span></h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PIZZA & LAHMACUN -->
+    <div class="menu-panel" id="cat-pizza">
+      <h2 class="menu-category-title">Pizza &amp; Lahmacun</h2>
+      <p class="menu-category-desc placeholder-text">Platzhalter-Einleitung zur Kategorie.</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Lahmacun</h4>
+            <p class="placeholder-text">Dünner Teigfladen mit Hackfleisch – Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Pizza Margherita</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Pizza Döner</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Türkische Pizza (Pide)</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- VORSPEISEN & SALATE -->
+    <div class="menu-panel" id="cat-vorspeisen">
+      <h2 class="menu-category-title">Vorspeisen &amp; Salate</h2>
+      <p class="menu-category-desc placeholder-text">Platzhalter-Einleitung zur Kategorie.</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Gemischter Salat</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Hirtensalat</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Falafel (5 Stück)</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Suppe des Tages</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BEILAGEN & SAUCEN -->
+    <div class="menu-panel" id="cat-beilagen">
+      <h2 class="menu-category-title">Beilagen &amp; Saucen</h2>
+      <p class="menu-category-desc placeholder-text">Platzhalter-Einleitung zur Kategorie.</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Pommes Frites</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Reis</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Zusatz-Soße</h4>
+            <p class="placeholder-text">Knoblauch / Scharf / Cocktail – Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Extra Käse</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GETRÄNKE -->
+    <div class="menu-panel" id="cat-getraenke">
+      <h2 class="menu-category-title">Getränke</h2>
+      <p class="menu-category-desc placeholder-text">Platzhalter-Einleitung, z. B. Flaschengrößen ergänzen.</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Cola 0,33l</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Ayran 0,25l</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Wasser 0,5l</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Türkischer Tee</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DESSERTS -->
+    <div class="menu-panel" id="cat-dessert">
+      <h2 class="menu-category-title">Desserts</h2>
+      <p class="menu-category-desc placeholder-text">Platzhalter-Einleitung zur Kategorie.</p>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Baklava (2 Stück)</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item-info">
+            <h4>Sütlaç (Milchreis)</h4>
+            <p class="placeholder-text">Platzhalterbeschreibung.</p>
+          </div>
+          <div class="menu-item-price">X,XX €</div>
+        </div>
+      </div>
+    </div>
+
+    <p class="placeholder-text" style="text-align:center; margin-top:48px;">
+      * Allergene &amp; Zusatzstoffe werden hier später gemäß Lebensmittelinformations-Verordnung
+      (LMIV) ergänzt, sobald die finalen Gerichte feststehen.
+    </p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo"><span>🥙</span> Döner Ecke</div>
+        <p class="placeholder-text" style="color:#c9bbae;">Platzhaltertext: kurzer Claim/Slogan des Ladens.</p>
+      </div>
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a href="index.html#ueber-uns">Über uns</a></li>
+          <li><a href="speisekarte.html">Speisekarte</a></li>
+          <li><a href="index.html#kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Rechtliches</h4>
+        <ul>
+          <li><a href="impressum.html">Impressum</a></li>
+          <li><a href="datenschutz.html">Datenschutz</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li>[Straße Hausnummer]</li>
+          <li>[PLZ] [Stadt]</li>
+          <li><a href="tel:+4900000000">[Telefonnummer]</a></li>
+          <li><a href="mailto:info@doener-ecke-platzhalter.de">info@doener-ecke-platzhalter.de</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year></span> Döner Ecke – Alle Rechte vorbehalten.</span>
+      <span>Website-Design: Platzhalter-Version</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
